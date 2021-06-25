@@ -1,0 +1,29 @@
+body {
+	font-size:25px;
+	direction:rtl;
+}
+#form {
+		background-color:#5360EC;
+		width: 31%;
+		padding: 5px;
+		margin:auto;
+}
+#form > * {
+	display:block;
+	text-align:center;
+	margin:0 auto 5px auto;
+}
+#form > label {
+
+}
+#input_user {
+	width:87%;
+	text-align:right;
+}
+#form > button {
+	font-size: 22px;
+}
+#result {
+	text-align:center;
+}
+

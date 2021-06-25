@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Gematria calculator</title>
+		<script src="gematria.js" defer></script>
+		<link rel="stylesheet" href="global.css">
+	</head>
+	<body>
+		<form onsubmit="checkGematria(event)" id="form" method="get">
+			<label for="input_user">כתוב את המשפט כאן</label>
+			<input
+				id="input_user"
+				type="text"
+				value=""
+			/>
+			<button>חשב גמטריא</button>
+		</form>
+		<h1 id="result">החישוב יצא: <span id="totalResult"></span>
+		</h1>
+	</body>
+</html>
